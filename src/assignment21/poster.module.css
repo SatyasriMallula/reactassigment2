@@ -1,0 +1,26 @@
+.poster img{
+
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+}
+.poster{
+    margin: 10px;
+   
+}
+.Title{
+    color: rgb(12, 5, 112);
+    margin: 20px;
+}
+
+#title{
+    visibility: hidden;
+}
+.maindiv:hover #title{
+ visibility:visible;
+ border-radius: 15px;
+    background-color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
